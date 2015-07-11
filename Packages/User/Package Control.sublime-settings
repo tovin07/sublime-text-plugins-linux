@@ -1,0 +1,25 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Anaconda",
+		"AutoPEP8",
+		"Clickable URLs",
+		"Git",
+		"GitGutter",
+		"Indent XML",
+		"Logstash Syntax Highlighting",
+		"Package Control",
+		"PlainTasks",
+		"Seti_UI",
+		"Seti_UX",
+		"SFTP",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeREPL",
+		"Sublimerge Pro"
+	]
+}
