@@ -1,6 +1,8 @@
 {
 	"folder_history":
 	[
+		"/media/psf/Home/Documents/visc",
+		"/media/psf/Home/Documents/visc/log"
 	],
 	"last_version": 3083,
 	"last_window_id": 1,
@@ -19,14 +21,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/tovin07/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
-					"settings":
-					{
-						"buffer_size": 1275,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -35,10 +29,34 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 243.0,
-				"last_filter": "preuser",
+				"height": 400.0,
+				"last_filter": "upg",
 				"selected_items":
 				[
+					[
+						"upg",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"brow",
+						"Preferences: Browse Packages"
+					],
+					[
+						"upgrade",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"pro ref",
+						"Project: Refresh Folders"
+					],
+					[
+						"logsta",
+						"Set Syntax: Logstash"
+					],
+					[
+						"brw",
+						"Preferences: Browse Packages"
+					],
 					[
 						"preuser",
 						"Preferences: Settings - User"
@@ -64,7 +82,7 @@
 						"Package Control: Install Package"
 					]
 				],
-				"width": 467.0
+				"width": 475.0
 			},
 			"console":
 			{
@@ -84,13 +102,23 @@
 				"side_bar_visible": false,
 				"status_bar_visible": false
 			},
+			"expanded_folders":
+			[
+				"/media/psf/Home/Documents/visc",
+				"/media/psf/Home/Documents/visc/log"
+			],
 			"file_history":
 			[
+				"/media/psf/Home/Documents/visc/log/logstash.conf",
+				"/media/psf/Home/Documents/visc/log/win32eventlog.conf",
+				"/home/tovin07/Documents/log/logstash.conf",
+				"/home/tovin07/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/tovin07/.config/sublime-text-3/.gitignore",
 				"/home/tovin07/.bashrc"
 			],
 			"find":
 			{
-				"height": 0.0
+				"height": 29.0
 			},
 			"find_in_files":
 			{
@@ -104,6 +132,8 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"localhost",
+					"192.168.1.81"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -118,50 +148,23 @@
 				"whole_word": false,
 				"wrap": true
 			},
+			"folders":
+			[
+				{
+					"path": "/media/psf/Home/Documents/visc"
+				}
+			],
 			"groups":
 			[
 				{
-					"selected": 0,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/tovin07/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1275,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										734,
-										734
-									]
-								],
-								"settings":
-								{
-									"auto_complete": true,
-									"incomplete_sync": null,
-									"remote_loading": false,
-									"synced": false,
-									"syntax": "Packages/JavaScript/JSON.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 1.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
 					]
 				}
 			],
 			"incremental_find":
 			{
-				"height": 0.0
+				"height": 29.0
 			},
 			"input":
 			{
@@ -203,7 +206,7 @@
 			"project": "",
 			"replace":
 			{
-				"height": 0.0
+				"height": 54.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -241,7 +244,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 150.0,
+			"side_bar_width": 265.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
