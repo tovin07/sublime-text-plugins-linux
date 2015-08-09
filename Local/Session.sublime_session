@@ -29,10 +29,46 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 400.0,
-				"last_filter": "upg",
+				"height": 171.0,
+				"last_filter": "upgrade",
 				"selected_items":
 				[
+					[
+						"upgrade",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"svn",
+						"Preferences: SVN Settings"
+					],
+					[
+						"upgrad",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"listpac",
+						"Package Control: List Packages"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"package",
+						"Package Control: List Packages"
+					],
+					[
+						"procl",
+						"Set Syntax: Procfile"
+					],
 					[
 						"upg",
 						"Package Control: Upgrade/Overwrite All Packages"
@@ -40,10 +76,6 @@
 					[
 						"brow",
 						"Preferences: Browse Packages"
-					],
-					[
-						"upgrade",
-						"Package Control: Upgrade/Overwrite All Packages"
 					],
 					[
 						"pro ref",
@@ -70,19 +102,11 @@
 						"Package Control: Install Package"
 					],
 					[
-						"install",
-						"Package Control: Install Package"
-					],
-					[
 						"insta",
-						"Package Control: Install Package"
-					],
-					[
-						"inst",
 						"Package Control: Install Package"
 					]
 				],
-				"width": 475.0
+				"width": 538.0
 			},
 			"console":
 			{
@@ -102,13 +126,9 @@
 				"side_bar_visible": false,
 				"status_bar_visible": false
 			},
-			"expanded_folders":
-			[
-				"/media/psf/Home/Documents/visc",
-				"/media/psf/Home/Documents/visc/log"
-			],
 			"file_history":
 			[
+				"/home/tovin07/.config/sublime-text-3/Packages/SVN/SVN.sublime-settings",
 				"/media/psf/Home/Documents/visc/log/logstash.conf",
 				"/media/psf/Home/Documents/visc/log/win32eventlog.conf",
 				"/home/tovin07/Documents/log/logstash.conf",
@@ -148,12 +168,6 @@
 				"whole_word": false,
 				"wrap": true
 			},
-			"folders":
-			[
-				{
-					"path": "/media/psf/Home/Documents/visc"
-				}
-			],
 			"groups":
 			[
 				{

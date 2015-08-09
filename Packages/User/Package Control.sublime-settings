@@ -5,21 +5,36 @@
 	"installed_packages":
 	[
 		"Anaconda",
+		"AngularJS",
 		"AutoPEP8",
+		"Bootstrap 3 Snippets",
 		"Clickable URLs",
+		"CSS Format",
+		"CSS Snippets",
+		"ElasticsearchClient",
+		"Emmet",
+		"Flask Completions",
+		"Flask Starter",
 		"Git",
 		"GitGutter",
+		"HTML5",
 		"Indent XML",
+		"Jinja2",
+		"LESS",
 		"Logstash Syntax Highlighting",
+		"Markdown Extended",
+		"Markdown Preview",
 		"Package Control",
 		"PlainTasks",
 		"Seti_UI",
 		"Seti_UX",
 		"SFTP",
 		"SideBarEnhancements",
+		"Stylus",
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeREPL",
-		"Sublimerge Pro"
+		"Sublimerge Pro",
+		"SVN"
 	]
 }
