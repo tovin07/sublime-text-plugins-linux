@@ -29,17 +29,33 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 171.0,
-				"last_filter": "upgrade",
+				"height": 400.0,
+				"last_filter": "up",
 				"selected_items":
 				[
 					[
-						"upgrade",
+						"up",
 						"Package Control: Upgrade/Overwrite All Packages"
 					],
 					[
 						"install",
 						"Package Control: Install Package"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"listpa",
+						"Package Control: List Packages"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"upgrade",
+						"Package Control: Upgrade/Overwrite All Packages"
 					],
 					[
 						"svn",
@@ -52,10 +68,6 @@
 					[
 						"listpac",
 						"Package Control: List Packages"
-					],
-					[
-						"instal",
-						"Package Control: Install Package"
 					],
 					[
 						"inst",
@@ -99,10 +111,6 @@
 					],
 					[
 						"install ",
-						"Package Control: Install Package"
-					],
-					[
-						"insta",
 						"Package Control: Install Package"
 					]
 				],
