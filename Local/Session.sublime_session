@@ -1,8 +1,6 @@
 {
 	"folder_history":
 	[
-		"/media/psf/Home/Documents/visc",
-		"/media/psf/Home/Documents/visc/log"
 	],
 	"last_version": 3083,
 	"last_window_id": 1,
@@ -30,16 +28,20 @@
 			"command_palette":
 			{
 				"height": 400.0,
-				"last_filter": "up",
+				"last_filter": "",
 				"selected_items":
 				[
 					[
-						"up",
+						"upgrade",
 						"Package Control: Upgrade/Overwrite All Packages"
 					],
 					[
 						"install",
 						"Package Control: Install Package"
+					],
+					[
+						"up",
+						"Package Control: Upgrade/Overwrite All Packages"
 					],
 					[
 						"insta",
@@ -52,10 +54,6 @@
 					[
 						"instal",
 						"Package Control: Install Package"
-					],
-					[
-						"upgrade",
-						"Package Control: Upgrade/Overwrite All Packages"
 					],
 					[
 						"svn",
@@ -136,6 +134,7 @@
 			},
 			"file_history":
 			[
+				"/home/tovin07/.config/sublime-text-3/Packages/User/Emmet.sublime-settings",
 				"/home/tovin07/.config/sublime-text-3/Packages/SVN/SVN.sublime-settings",
 				"/media/psf/Home/Documents/visc/log/logstash.conf",
 				"/media/psf/Home/Documents/visc/log/win32eventlog.conf",

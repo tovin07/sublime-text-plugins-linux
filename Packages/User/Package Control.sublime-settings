@@ -20,7 +20,9 @@
 		"HTML5",
 		"Indent XML",
 		"IPython Notebook",
+		"JavaScript Completions",
 		"Jinja2",
+		"JSLint",
 		"LESS",
 		"Logstash Syntax Highlighting",
 		"Markdown Extended",
@@ -38,6 +40,7 @@
 		"SublimeLinter",
 		"SublimeREPL",
 		"Sublimerge Pro",
-		"SVN"
+		"SVN",
+		"TodoReview"
 	]
 }
