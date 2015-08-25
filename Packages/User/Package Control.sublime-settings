@@ -30,6 +30,7 @@
 		"nginx",
 		"Package Control",
 		"PlainTasks",
+		"Python Breakpoints",
 		"Seti_UI",
 		"Seti_UX",
 		"SFTP",
@@ -41,6 +42,8 @@
 		"SublimeREPL",
 		"Sublimerge Pro",
 		"SVN",
-		"TodoReview"
+		"TodoReview",
+		"Vintageous",
+		"Vn Ime"
 	]
 }

@@ -40,6 +40,30 @@
 						"Package Control: Install Package"
 					],
 					[
+						"enab",
+						"Package Control: Enable Package"
+					],
+					[
+						"disa",
+						"Package Control: Disable Package"
+					],
+					[
+						"upgrad",
+						"Package Control: Upgrade Package"
+					],
+					[
+						"vni",
+						"View: Toggle Minimap"
+					],
+					[
+						"mini",
+						"Snippet: bs3-mini-button"
+					],
+					[
+						"vn im",
+						"View: Toggle Minimap"
+					],
+					[
 						"up",
 						"Package Control: Upgrade/Overwrite All Packages"
 					],
@@ -58,10 +82,6 @@
 					[
 						"svn",
 						"Preferences: SVN Settings"
-					],
-					[
-						"upgrad",
-						"Package Control: Upgrade/Overwrite All Packages"
 					],
 					[
 						"listpac",
@@ -112,7 +132,7 @@
 						"Package Control: Install Package"
 					]
 				],
-				"width": 538.0
+				"width": 547.0
 			},
 			"console":
 			{
@@ -134,12 +154,12 @@
 			},
 			"file_history":
 			[
+				"/home/tovin07/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 				"/home/tovin07/.config/sublime-text-3/Packages/User/Emmet.sublime-settings",
 				"/home/tovin07/.config/sublime-text-3/Packages/SVN/SVN.sublime-settings",
 				"/media/psf/Home/Documents/visc/log/logstash.conf",
 				"/media/psf/Home/Documents/visc/log/win32eventlog.conf",
 				"/home/tovin07/Documents/log/logstash.conf",
-				"/home/tovin07/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 				"/home/tovin07/.config/sublime-text-3/.gitignore",
 				"/home/tovin07/.bashrc"
 			],
@@ -260,6 +280,11 @@
 			"selected_group": 0,
 			"settings":
 			{
+				"_vintageous_reset_during_init": true,
+				"vintage":
+				{
+					"_cmdline_cd": "/opt/sublime_text"
+				}
 			},
 			"show_minimap": false,
 			"show_open_files": false,
