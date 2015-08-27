@@ -28,12 +28,24 @@
 			"command_palette":
 			{
 				"height": 400.0,
-				"last_filter": "",
+				"last_filter": "disa",
 				"selected_items":
 				[
 					[
+						"disa",
+						"Package Control: Disable Package"
+					],
+					[
 						"upgrade",
 						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"ena",
+						"Package Control: Enable Package"
 					],
 					[
 						"install",
@@ -42,10 +54,6 @@
 					[
 						"enab",
 						"Package Control: Enable Package"
-					],
-					[
-						"disa",
-						"Package Control: Disable Package"
 					],
 					[
 						"upgrad",
@@ -126,13 +134,9 @@
 					[
 						"instl",
 						"Package Control: Install Package"
-					],
-					[
-						"install ",
-						"Package Control: Install Package"
 					]
 				],
-				"width": 547.0
+				"width": 538.0
 			},
 			"console":
 			{

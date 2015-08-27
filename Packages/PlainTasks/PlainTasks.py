@@ -23,7 +23,7 @@ else:
 
 
 class PlainTasksBase(sublime_plugin.TextCommand):
-    def run(self, edit):
+    def run(self, edit, **kwargs):
         settings = self.view.settings()
 
         self.taskpaper_compatible = settings.get('taskpaper_compatible', False)
@@ -56,7 +56,7 @@ class PlainTasksBase(sublime_plugin.TextCommand):
 
         if ST2:
             self.sys_enc = locale.getpreferredencoding()
-        self.runCommand(edit)
+        self.runCommand(edit, **kwargs)
 
 
 class PlainTasksNewCommand(PlainTasksBase):
@@ -283,25 +283,21 @@ class PlainTasksCancelCommand(PlainTasksBase):
 
 
 class PlainTasksArchiveCommand(PlainTasksBase):
-    def runCommand(self, edit):
+    def runCommand(self, edit, partial=False):
         rds = 'meta.item.todo.completed'
         rcs = 'meta.item.todo.cancelled'
 
         # finding archive section
         archive_pos = self.view.find(self.archive_name, 0, sublime.LITERAL)
 
-        done_tasks = [i for i in self.view.find_by_selector(rds) if i.a < (archive_pos.a if archive_pos and archive_pos.a > 0  else self.view.size())]
-        for i in done_tasks:
-            self.get_task_note(i, done_tasks)
+        if partial:
+            all_tasks = self.get_archivable_tasks_within_selections()
+        else:
+            all_tasks = self.get_all_archivable_tasks(archive_pos, rds, rcs)
 
-        canc_tasks = [i for i in self.view.find_by_selector(rcs) if i.a < (archive_pos.a if archive_pos and archive_pos.a > 0 else self.view.size())]
-        for i in canc_tasks:
-            self.get_task_note(i, canc_tasks)
-
-        all_tasks = done_tasks + canc_tasks
-        all_tasks.sort()
-
-        if all_tasks:
+        if not all_tasks:
+            sublime.status_message('Nothing to archive')
+        else:
             if archive_pos and archive_pos.a > 0:
                 line = self.view.full_line(archive_pos).end()
             else:
@@ -328,9 +324,9 @@ class PlainTasksArchiveCommand(PlainTasksBase):
                                '\n')
                     else:
                         eol = (self.before_tasks_bullet_spaces +
-                               match_task.group(1) + # bullet
+                               match_task.group(1) +  # bullet
                                (self.tasks_bullet_space if pr else '') + pr + (':' if pr else '') +
-                               match_task.group(2) + # very task
+                               match_task.group(2) +  # very task
                                '\n')
                 else:
                     eol = self.before_tasks_bullet_spaces * 2 + self.view.substr(task).lstrip() + '\n'
@@ -386,6 +382,29 @@ class PlainTasksArchiveCommand(PlainTasksBase):
             if note not in tasks:
                 tasks.append(note)
             note_line = self.view.line(note_line).end() + 1
+
+    def get_all_archivable_tasks(self, archive_pos, rds, rcs):
+        done_tasks = [i for i in self.view.find_by_selector(rds) if i.a < (archive_pos.a if archive_pos and archive_pos.a > 0 else self.view.size())]
+        for i in done_tasks:
+            self.get_task_note(i, done_tasks)
+
+        canc_tasks = [i for i in self.view.find_by_selector(rcs) if i.a < (archive_pos.a if archive_pos and archive_pos.a > 0 else self.view.size())]
+        for i in canc_tasks:
+            self.get_task_note(i, canc_tasks)
+
+        all_tasks = done_tasks + canc_tasks
+        all_tasks.sort()
+        return all_tasks
+
+    def get_archivable_tasks_within_selections(self):
+        all_tasks = []
+        for region in self.view.sel():
+            for l in self.view.lines(region):
+                line = self.view.line(l)
+                if ('completed' in self.view.scope_name(line.a)) or ('cancelled' in self.view.scope_name(line.a)):
+                    all_tasks.append(line)
+                    self.get_task_note(line, all_tasks)
+        return all_tasks
 
 
 class PlainTasksNewTaskDocCommand(sublime_plugin.WindowCommand):
@@ -712,7 +731,7 @@ class PlainTasksConvertToHtml(PlainTasksBase):
     def is_enabled(self):
         return self.view.score_selector(0, "text.todo") > 0
 
-    def runCommand(self, edit):
+    def runCommand(self, edit, ask=False):
         import cgi
         all_lines_regions = self.view.split_by_newlines(sublime.Region(0, self.view.size()))
         html_doc = []
@@ -817,16 +836,31 @@ class PlainTasksConvertToHtml(PlainTasksBase):
                                       'Please, report an issue in PlainTasks repository on GitHub.')
             html_doc.append(ht)
 
-        # create file
+        title = os.path.basename(self.view.file_name()) if self.view.file_name() else 'Export'
+        html  = self.produce_html_from_template(title, html_doc)
+
+        if ask:
+            window = sublime.active_window()
+            nv = window.new_file()
+            nv.set_syntax_file('Packages/HTML/HTML.tmLanguage')
+            nv.set_name(title + '.html')
+            nv.insert(edit, 0, html)
+            window.run_command('close_file')
+            return
+
         import tempfile
         tmp_html = tempfile.NamedTemporaryFile(delete=False, suffix='.html')
-        with io.open('%s/PlainTasks/templates/template.html' % sublime.packages_path(), 'r', encoding='utf8') as template:
-            title = os.path.basename(self.view.file_name()) if self.view.file_name() else 'Export'
-            for line in template:
-                line = line.replace('$title', title).replace('$content', '\n'.join(html_doc))
-                tmp_html.write(line.encode('utf-8'))
+        tmp_html.write(html.encode('utf-8'))
         tmp_html.close()
         webbrowser.open_new_tab("file://%s" % tmp_html.name)
+
+    def produce_html_from_template(self, title, html_doc):
+        html_lines = []
+        with io.open('%s/PlainTasks/templates/template.html' % sublime.packages_path(), 'r', encoding='utf8') as template:
+            for line in template:
+                line = line.replace('$title', title).replace('$content', '\n'.join(html_doc)).strip('\n')
+                html_lines.append(line)
+        return u'\n'.join(html_lines)
 
     def extracting_scopes(self, edit, region, scope_name=''):
         '''extract scope for each char in line wo dups, ineffective but it works?'''
