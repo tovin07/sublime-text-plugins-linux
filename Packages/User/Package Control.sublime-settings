@@ -6,6 +6,8 @@
 	[
 		"Anaconda",
 		"AngularJS",
+		"Asterisk Config",
+		"AutoDocstring",
 		"AutoPEP8",
 		"Bootstrap 3 Snippets",
 		"Clickable URLs",
@@ -24,6 +26,8 @@
 		"Jinja2",
 		"JSCS-Formatter",
 		"JSLint",
+		"LaTeXing",
+		"LaTeXTools",
 		"LESS",
 		"Logstash Syntax Highlighting",
 		"Markdown Extended",

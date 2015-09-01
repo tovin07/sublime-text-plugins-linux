@@ -20,24 +20,60 @@
 			"buffers":
 			[
 			],
-			"build_system": "",
+			"build_system": "Packages/Python/Python.sublime-build",
 			"build_system_choices":
 			[
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				]
 			],
 			"build_varint": "",
 			"command_palette":
 			{
 				"height": 400.0,
-				"last_filter": "disa",
+				"last_filter": "install",
 				"selected_items":
 				[
 					[
-						"disa",
-						"Package Control: Disable Package"
+						"install",
+						"Package Control: Install Package"
 					],
 					[
 						"upgrade",
 						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"ipytho",
+						"SublimeREPL: Python - IPython"
+					],
+					[
+						"ipyre",
+						"SublimeREPL: Python - PDB current file"
+					],
+					[
+						"upgar",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"disa",
+						"Package Control: Disable Package"
 					],
 					[
 						"install ",
@@ -46,10 +82,6 @@
 					[
 						"ena",
 						"Package Control: Enable Package"
-					],
-					[
-						"install",
-						"Package Control: Install Package"
 					],
 					[
 						"enab",
@@ -158,6 +190,7 @@
 			},
 			"file_history":
 			[
+				"/home/tovin07/Documents/test.py",
 				"/home/tovin07/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 				"/home/tovin07/.config/sublime-text-3/Packages/User/Emmet.sublime-settings",
 				"/home/tovin07/.config/sublime-text-3/Packages/SVN/SVN.sublime-settings",
@@ -213,7 +246,7 @@
 			},
 			"input":
 			{
-				"height": 0.0
+				"height": 30.0
 			},
 			"layout":
 			{
@@ -238,6 +271,10 @@
 				]
 			},
 			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 378.0
+			},
 			"output.find_results":
 			{
 				"height": 0.0

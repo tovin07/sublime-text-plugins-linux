@@ -27,10 +27,10 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintageous",
 		"JSLint",
+		"Vintage",
 		"Anaconda",
-		"Vintage"
+		"Vintageous"
 	],
 	"line_padding_bottom": 2,
 	"line_padding_top": 1,
