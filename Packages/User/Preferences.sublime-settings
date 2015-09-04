@@ -1,18 +1,8 @@
 {
-	"Seti_SB_bright": true,
-	"Seti_blue_tab_label": true,
-	"Seti_in_4_a_treat": true,
-	"Seti_no_bar_undertabs": true,
-	"Seti_no_blue_bar": true,
-	"Seti_orange_button": true,
-	"Seti_orange_label": true,
-	"Seti_rainbow": true,
-	"Seti_sb_small_padding": true,
-	"Seti_tabs_small": true,
 	"bold_folder_labels": true,
 	"caret_extra_width": 2,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/base16-eighties.dark (SL).tmTheme",
 	"default_line_ending": "unix",
 	"detect_indentation": true,
 	"detect_slow_plugins": false,
@@ -27,16 +17,25 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"JSLint",
-		"Vintage",
+		"D",
+		"C#",
 		"Anaconda",
-		"Vintageous"
+		"C++",
+		"Markdown",
+		"Vintage",
+		"AppleScript",
+		"ActionScript",
+		"Clojure",
+		"Vintageous",
+		"JSLint",
+		"ASP"
 	],
 	"line_padding_bottom": 2,
 	"line_padding_top": 1,
 	"margin": -1,
 	"open_files_in_new_window": false,
 	"overlay_scroll_bars": "enabled",
+	"piatto_folder_icons": true,
 	"remember_open_files": true,
 	"rulers":
 	[
@@ -48,7 +47,7 @@
 	"tab_size": 4,
 	"tabs_small": true,
 	"telex": true,
-	"theme": "Seti_orig.sublime-theme",
+	"theme": "Spacegray Eighties.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true

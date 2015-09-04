@@ -1,6 +1,7 @@
 {
 	"folder_history":
 	[
+		"/home/tovin07/Documents"
 	],
 	"last_version": 3083,
 	"last_window_id": 1,
@@ -15,6 +16,10 @@
 			{
 				"selected_items":
 				[
+					[
+						"print",
+						"print〔function〕"
+					]
 				]
 			},
 			"buffers":
@@ -48,11 +53,75 @@
 			"command_palette":
 			{
 				"height": 400.0,
-				"last_filter": "install",
+				"last_filter": "install ",
 				"selected_items":
 				[
 					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"list",
+						"Package Control: List Packages"
+					],
+					[
+						"disa",
+						"Package Control: Disable Package"
+					],
+					[
+						"ena",
+						"Package Control: Enable Package"
+					],
+					[
+						"dis",
+						"Package Control: Disable Package"
+					],
+					[
+						"enable",
+						"Package Control: Enable Package"
+					],
+					[
+						"disab",
+						"Package Control: Disable Package"
+					],
+					[
+						"set pytho",
+						"Set Syntax: Python"
+					],
+					[
+						"python",
+						"Python Breakpoints: Goto"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"autodoc",
+						"AutoDocstring: Current"
+					],
+					[
 						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"install a",
+						"Package Control: Install Package"
+					],
+					[
+						"listpa",
+						"Package Control: List Packages"
+					],
+					[
+						"lis",
+						"Package Control: List Packages"
+					],
+					[
+						"pre",
+						"Preferences: Settings - User"
+					],
+					[
+						"instal",
 						"Package Control: Install Package"
 					],
 					[
@@ -70,18 +139,6 @@
 					[
 						"upgar",
 						"Package Control: Upgrade/Overwrite All Packages"
-					],
-					[
-						"disa",
-						"Package Control: Disable Package"
-					],
-					[
-						"install ",
-						"Package Control: Install Package"
-					],
-					[
-						"ena",
-						"Package Control: Enable Package"
 					],
 					[
 						"enab",
@@ -109,14 +166,6 @@
 					],
 					[
 						"insta",
-						"Package Control: Install Package"
-					],
-					[
-						"listpa",
-						"Package Control: List Packages"
-					],
-					[
-						"instal",
 						"Package Control: Install Package"
 					],
 					[
@@ -190,8 +239,12 @@
 			},
 			"file_history":
 			[
-				"/home/tovin07/Documents/test.py",
+				"/home/tovin07/.config/sublime-text-3/Packages/User/Preferences_Seti.sublime-settings",
 				"/home/tovin07/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/tovin07/Documents/test.py",
+				"/home/tovin07/.config/sublime-text-3/Packages/User/AutoDocstring.sublime-settings",
+				"/home/tovin07/.config/sublime-text-3/Packages/AutoFileName/autofilename.sublime-settings",
+				"/media/psf/Home/Downloads/jquery-2.1.4.js",
 				"/home/tovin07/.config/sublime-text-3/Packages/User/Emmet.sublime-settings",
 				"/home/tovin07/.config/sublime-text-3/Packages/SVN/SVN.sublime-settings",
 				"/media/psf/Home/Documents/visc/log/logstash.conf",
@@ -216,6 +269,9 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"Light",
+					"light",
+					"Light",
 					"localhost",
 					"192.168.1.81"
 				],
