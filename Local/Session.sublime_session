@@ -1,6 +1,7 @@
 {
 	"folder_history":
 	[
+		"/media/psf/Home/Documents",
 		"/home/tovin07/Documents"
 	],
 	"last_version": 3083,
@@ -52,10 +53,50 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 400.0,
-				"last_filter": "install ",
+				"height": 354.0,
+				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"upgra",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"pro",
+						"Project: Refresh Folders"
+					],
+					[
+						"up",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"dis",
+						"Package Control: Disable Package"
+					],
+					[
+						"proadd",
+						"Project: Add Folder"
+					],
+					[
+						"preuse",
+						"Preferences: Settings - User"
+					],
+					[
+						"dias",
+						"Package Control: Disable Package"
+					],
+					[
+						"upg",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"proad",
+						"Project: Add Folder"
+					],
 					[
 						"install ",
 						"Package Control: Install Package"
@@ -71,10 +112,6 @@
 					[
 						"ena",
 						"Package Control: Enable Package"
-					],
-					[
-						"dis",
-						"Package Control: Disable Package"
 					],
 					[
 						"enable",
@@ -99,10 +136,6 @@
 					[
 						"autodoc",
 						"AutoDocstring: Current"
-					],
-					[
-						"install",
-						"Package Control: Install Package"
 					],
 					[
 						"install a",
@@ -161,10 +194,6 @@
 						"View: Toggle Minimap"
 					],
 					[
-						"up",
-						"Package Control: Upgrade/Overwrite All Packages"
-					],
-					[
 						"insta",
 						"Package Control: Install Package"
 					],
@@ -187,10 +216,6 @@
 					[
 						"procl",
 						"Set Syntax: Procfile"
-					],
-					[
-						"upg",
-						"Package Control: Upgrade/Overwrite All Packages"
 					],
 					[
 						"brow",
@@ -217,7 +242,7 @@
 						"Package Control: Install Package"
 					]
 				],
-				"width": 538.0
+				"width": 512.0
 			},
 			"console":
 			{
@@ -234,13 +259,16 @@
 				"show_minimap": false,
 				"show_open_files": false,
 				"show_tabs": false,
-				"side_bar_visible": false,
+				"side_bar_visible": true,
 				"status_bar_visible": false
 			},
 			"file_history":
 			[
-				"/home/tovin07/.config/sublime-text-3/Packages/User/Preferences_Seti.sublime-settings",
+				"/media/psf/Home/Documents/projects/angular/Gruntfile.js",
 				"/home/tovin07/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/media/psf/Home/Documents/projects/angular/bower.json",
+				"/media/psf/Home/Documents/graduation/README.md",
+				"/home/tovin07/.config/sublime-text-3/Packages/User/Preferences_Seti.sublime-settings",
 				"/home/tovin07/Documents/test.py",
 				"/home/tovin07/.config/sublime-text-3/Packages/User/AutoDocstring.sublime-settings",
 				"/home/tovin07/.config/sublime-text-3/Packages/AutoFileName/autofilename.sublime-settings",
@@ -255,7 +283,7 @@
 			],
 			"find":
 			{
-				"height": 29.0
+				"height": 30.0
 			},
 			"find_in_files":
 			{
@@ -275,7 +303,7 @@
 					"localhost",
 					"192.168.1.81"
 				],
-				"highlight": true,
+				"highlight": false,
 				"in_selection": false,
 				"preserve_case": false,
 				"regex": false,
@@ -298,7 +326,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 29.0
+				"height": 30.0
 			},
 			"input":
 			{
@@ -344,7 +372,7 @@
 			"project": "",
 			"replace":
 			{
-				"height": 54.0
+				"height": 56.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -387,7 +415,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 265.0,
+			"side_bar_width": 352.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
