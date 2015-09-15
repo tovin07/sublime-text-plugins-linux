@@ -1,8 +1,9 @@
 {
 	"folder_history":
 	[
-		"/media/psf/Home/Documents",
-		"/home/tovin07/Documents"
+		"/home/tovin07/Documents",
+		"/home/tovin07",
+		"/media/psf/Home/Documents"
 	],
 	"last_version": 3083,
 	"last_window_id": 1,
@@ -54,9 +55,29 @@
 			"command_palette":
 			{
 				"height": 354.0,
-				"last_filter": "",
+				"last_filter": "dis",
 				"selected_items":
 				[
+					[
+						"dis",
+						"Package Control: Disable Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"re",
+						"Package Control: Remove Package"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
 					[
 						"upgra",
 						"Package Control: Upgrade/Overwrite All Packages"
@@ -68,10 +89,6 @@
 					[
 						"up",
 						"Package Control: Upgrade/Overwrite All Packages"
-					],
-					[
-						"dis",
-						"Package Control: Disable Package"
 					],
 					[
 						"proadd",
@@ -88,10 +105,6 @@
 					[
 						"upg",
 						"Package Control: Upgrade/Overwrite All Packages"
-					],
-					[
-						"install",
-						"Package Control: Install Package"
 					],
 					[
 						"proad",
@@ -128,10 +141,6 @@
 					[
 						"python",
 						"Python Breakpoints: Goto"
-					],
-					[
-						"remove",
-						"Package Control: Remove Package"
 					],
 					[
 						"autodoc",
@@ -242,11 +251,11 @@
 						"Package Control: Install Package"
 					]
 				],
-				"width": 512.0
+				"width": 575.0
 			},
 			"console":
 			{
-				"height": 139.0,
+				"height": 231.0,
 				"history":
 				[
 					"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
@@ -264,6 +273,11 @@
 			},
 			"file_history":
 			[
+				"/home/tovin07/.config/sublime-text-3/Packages/AngularJS/AngularJS-sublime-package.sublime-settings",
+				"/home/tovin07/.config/sublime-text-3/Packages/AngularJS/AngularJS-completions.sublime-settings",
+				"/home/tovin07/.config/sublime-text-3/Packages/User/VcsGutter.sublime-settings",
+				"/home/tovin07/.config/sublime-text-3/Packages/VCS Gutter/VcsGutter.sublime-settings",
+				"/home/tovin07/.config/sublime-text-3/Packages/User/Terminal (Linux).sublime-settings",
 				"/media/psf/Home/Documents/projects/angular/Gruntfile.js",
 				"/home/tovin07/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 				"/media/psf/Home/Documents/projects/angular/bower.json",
@@ -322,6 +336,11 @@
 					"sheets":
 					[
 					]
+				},
+				{
+					"sheets":
+					[
+					]
 				}
 			],
 			"incremental_find":
@@ -341,11 +360,18 @@
 						0,
 						1,
 						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
 					]
 				],
 				"cols":
 				[
 					0.0,
+					0.5,
 					1.0
 				],
 				"rows":
@@ -415,7 +441,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 352.0,
+			"side_bar_width": 217.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
