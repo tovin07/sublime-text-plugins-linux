@@ -1,4 +1,5 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
@@ -14,9 +15,8 @@
 		"Bootstrap 3 Snippets",
 		"BracketHighlighter",
 		"Clickable URLs",
-		"CSS Format",
 		"CSS Snippets",
-		"ElasticsearchClient",
+		"DocBlockr",
 		"Emmet",
 		"Flask Completions",
 		"Flask Starter",
@@ -27,8 +27,9 @@
 		"Indent XML",
 		"IPython Notebook",
 		"JavaScript Completions",
+		"JSHint",
+		"JSHint Gutter",
 		"JSLint",
-		"LESS",
 		"LiveReload",
 		"Logstash Syntax Highlighting",
 		"LoremIpsum",
@@ -52,7 +53,6 @@
 		"SublimeREPL",
 		"Sublimerge Pro",
 		"SVN",
-		"Terminal",
 		"Theme - Spacegray",
 		"TodoReview",
 		"VCS Gutter",

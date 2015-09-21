@@ -54,16 +54,36 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 354.0,
-				"last_filter": "dis",
+				"height": 101.0,
+				"last_filter": "upgrade",
 				"selected_items":
 				[
+					[
+						"upgrade",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"rem",
+						"Package Control: Remove Package"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
 					[
 						"dis",
 						"Package Control: Disable Package"
 					],
 					[
+						"preuser",
+						"Preferences: Settings - User"
+					],
+					[
 						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"insta",
 						"Package Control: Install Package"
 					],
 					[
@@ -72,10 +92,6 @@
 					],
 					[
 						"re",
-						"Package Control: Remove Package"
-					],
-					[
-						"remove",
 						"Package Control: Remove Package"
 					],
 					[
@@ -167,10 +183,6 @@
 						"Package Control: Install Package"
 					],
 					[
-						"upgrade",
-						"Package Control: Upgrade/Overwrite All Packages"
-					],
-					[
 						"ipytho",
 						"SublimeREPL: Python - IPython"
 					],
@@ -201,10 +213,6 @@
 					[
 						"vn im",
 						"View: Toggle Minimap"
-					],
-					[
-						"insta",
-						"Package Control: Install Package"
 					],
 					[
 						"svn",
@@ -243,15 +251,11 @@
 						"Preferences: Browse Packages"
 					],
 					[
-						"preuser",
-						"Preferences: Settings - User"
-					],
-					[
 						"instl",
 						"Package Control: Install Package"
 					]
 				],
-				"width": 575.0
+				"width": 538.0
 			},
 			"console":
 			{
@@ -273,16 +277,17 @@
 			},
 			"file_history":
 			[
+				"/home/tovin07/.config/sublime-text-3/Packages/User/Distraction Free.sublime-settings",
+				"/home/tovin07/.config/sublime-text-3/Packages/User/Preferences_Seti.sublime-settings",
+				"/home/tovin07/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 				"/home/tovin07/.config/sublime-text-3/Packages/AngularJS/AngularJS-sublime-package.sublime-settings",
 				"/home/tovin07/.config/sublime-text-3/Packages/AngularJS/AngularJS-completions.sublime-settings",
 				"/home/tovin07/.config/sublime-text-3/Packages/User/VcsGutter.sublime-settings",
 				"/home/tovin07/.config/sublime-text-3/Packages/VCS Gutter/VcsGutter.sublime-settings",
 				"/home/tovin07/.config/sublime-text-3/Packages/User/Terminal (Linux).sublime-settings",
 				"/media/psf/Home/Documents/projects/angular/Gruntfile.js",
-				"/home/tovin07/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 				"/media/psf/Home/Documents/projects/angular/bower.json",
 				"/media/psf/Home/Documents/graduation/README.md",
-				"/home/tovin07/.config/sublime-text-3/Packages/User/Preferences_Seti.sublime-settings",
 				"/home/tovin07/Documents/test.py",
 				"/home/tovin07/.config/sublime-text-3/Packages/User/AutoDocstring.sublime-settings",
 				"/home/tovin07/.config/sublime-text-3/Packages/AutoFileName/autofilename.sublime-settings",
@@ -297,7 +302,7 @@
 			],
 			"find":
 			{
-				"height": 30.0
+				"height": 27.0
 			},
 			"find_in_files":
 			{
@@ -345,7 +350,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 30.0
+				"height": 27.0
 			},
 			"input":
 			{
@@ -398,7 +403,7 @@
 			"project": "",
 			"replace":
 			{
-				"height": 56.0
+				"height": 50.0
 			},
 			"save_all_on_build": true,
 			"select_file":
